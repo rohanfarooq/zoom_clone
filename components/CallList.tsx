@@ -1,7 +1,6 @@
 "use client";
 import { useGetCalls } from "@/hooks/useGetCalls";
-import { CallRecording } from "@stream-io/node-sdk";
-import { Call } from "@stream-io/video-react-sdk";
+import { Call, CallRecording } from "@stream-io/video-react-sdk";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import MeetingCard from "./MeetingCard";
